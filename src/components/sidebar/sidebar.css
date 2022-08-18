@@ -1,0 +1,9 @@
+/* .sidebar {
+	margin-left: 200px;
+	margin-top: 20px;
+} */
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,31 @@
+.add__comment__parent {
+	display: flex;
+}
+
+form {
+	display: flex;
+	width: 95%;
+}
+
+input {
+	display: flex;
+	width: 100%;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	color: gray;
+	border-color: blue;
+	padding: 5px;
+}
+
+.comment__button {
+	color: rgb(108, 108, 231);
+	font-size: small;
+	font-weight: 500;
+	align-items: center;
+	margin-left: 5px;
+}
+
+.disabled__comment {
+	opacity: 0.25;
+	align-items: center;
+}

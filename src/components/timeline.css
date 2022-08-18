@@ -1,0 +1,8 @@
+/* .timeline__parent {
+	display: grid;
+	justify-content: left;
+} */
+
+.timeline__parent {
+	margin-right: 60px;
+}

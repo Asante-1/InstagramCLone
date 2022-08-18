@@ -1,0 +1,98 @@
+.login__parent {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+}
+
+.login__sub {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	border: 0px solid gray;
+	box-shadow: 10px 10px 10px 10px grey;
+	width: 40%;
+}
+.logo {
+	margin-top: 10px;
+}
+.login__image {
+	flex: 0.6;
+	margin-left: 20px;
+	padding: 30px;
+	display: flex;
+}
+
+.phone__img {
+	width: 500px;
+	height: 500px;
+	object-fit: contain;
+	min-width: 200px;
+}
+
+.email__address {
+	margin-left: 10px;
+	width: 80%;
+	padding: 20px;
+	color: grey;
+	font-weight: 100;
+	height: 10px;
+	border-color: grey;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.password {
+	margin-left: 10px;
+	width: 80%;
+	padding: 20px;
+	color: grey;
+	font-weight: 100;
+	height: 10px;
+	border-color: grey;
+	margin-bottom: 10px;
+}
+
+.login__btn {
+	margin-left: 10px;
+	width: 80%;
+	padding: 4px;
+	color: white;
+	background-color: #0095f6;
+}
+
+.err_msg {
+	color: rgb(226, 44, 44);
+	font-size: small;
+}
+
+.opacity {
+	opacity: 0.5;
+}
+
+.no__acc {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	width: 80%;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	border: 1px solid none;
+	padding: 4px;
+}
+
+.no__acc__text {
+	font-size: small;
+	color: black;
+	padding: 4px;
+	font-weight: 400;
+}
+
+.no__acc__text :hover {
+	color: gray;
+}
+
+.signup__link {
+	color: #0095f6;
+	font-size: small;
+}
